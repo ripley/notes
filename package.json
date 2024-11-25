@@ -6,6 +6,8 @@
   ],
   "scripts": {},
   "devDependencies": {
+    "@aws-sdk/client-dynamodb": "^3.699.0",
+    "@aws-sdk/lib-dynamodb": "^3.699.0",
     "@tsconfig/node20": "^20.1.4",
     "typescript": "5.6.2"
   },

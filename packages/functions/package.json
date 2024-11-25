@@ -2,10 +2,14 @@
   "name": "@notes/functions",
   "version": "0.0.0",
   "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.699.0",
+    "@aws-sdk/lib-dynamodb": "^3.699.0",
     "@notes/core": "*",
-    "sst": "*"
+    "sst": "*",
+    "uuid": "^11.0.3"
   },
   "devDependencies": {
-    "@types/aws-lambda": "^8.10.137"
+    "@types/aws-lambda": "^8.10.145",
+    "@types/uuid": "^10.0.0"
   }
 }
